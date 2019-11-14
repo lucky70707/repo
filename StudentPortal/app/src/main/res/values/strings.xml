@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StudentPortal</string>
+    <string name="Title">Title</string>
+    <string name="add_portal">ADD PORTAL</string>
+</resources>
