@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.QuestionFragment">
+
+
+
+    <TextView
+        android:id="@+id/tVQuestion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Who is the co-founder of Android?"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVQuestion">
+
+        <RadioButton
+            android:id="@+id/rBQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Andy Rubin" />
+
+        <RadioButton
+            android:id="@+id/rBQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Larry Page &amp; Sergey Brin" />
+
+        <RadioButton
+            android:id="@+id/rBQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sundary Pichai" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tVQuestionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="0/10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNextloc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="CONFIRM"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent=".95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

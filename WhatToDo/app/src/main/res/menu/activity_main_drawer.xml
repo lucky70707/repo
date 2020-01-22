@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_show_chart_black_24dp"
+            android:title="@string/progress" />
+        <item
+            android:id="@+id/nav_saved_projects"
+            android:icon="@drawable/ic_collections_bookmark_black_24dp"
+            android:title="@string/saved_projects" />
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="@string/archive" />
+    </group>
+
+    <item android:title="@string/categories">
+        <menu>
+            <item
+                android:id="@+id/nav_health"
+                android:icon="@drawable/ic_asclepius_staff"
+                android:title="@string/health" />
+            <item
+                android:id="@+id/nav_sports"
+                android:icon="@drawable/ic_soccer_ball"
+                android:title="@string/sports"/>
+            <item
+                android:id="@+id/nav_work"
+                android:icon="@drawable/ic_work_black_24dp"
+                android:title="@string/work"/>
+            <item
+                android:id="@+id/nav_study"
+                android:icon="@drawable/ic_study"
+                android:title="@string/study"/>
+            <item
+                android:id="@+id/nav_miscellaneous"
+                android:icon="@drawable/ic_pantone"
+                android:title="@string/miscellaneous"/>
+            <!--Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+-->
+        </menu>
+    </item>
+
+</menu>
