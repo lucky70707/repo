@@ -22,4 +22,5 @@
     <string name="work">work</string>
     <string name="study">Study</string>
     <string name="miscellaneous">Miscellaneous</string>
+    <string name="general">General</string>
 </resources>
