@@ -1,4 +1,4 @@
-package pizza.summersolutions.whattodo
+package pizza.summersolutions.whattodo.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -15,7 +15,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
-import pizza.summersolutions.whattodo.ui.SettingsActivity
+import pizza.summersolutions.whattodo.R
 
 
 class MainActivity : AppCompatActivity() {
@@ -41,7 +41,9 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery,R.id.nav_progress
+                R.id.nav_home,
+                R.id.nav_gallery,
+                R.id.nav_progress
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -63,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         var id = item.itemId
-        if(id==R.id.action_settings){
+        if(id== R.id.action_settings){
             startActivity(Intent(this@MainActivity, SettingsActivity::class.java))
             return true
         }
