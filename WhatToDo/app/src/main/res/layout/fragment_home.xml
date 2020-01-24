@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPager2"
+        android:id="@+id/vpCategories"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/viewPager2" />
+        app:layout_constraintTop_toBottomOf="@+id/vpCategories" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
