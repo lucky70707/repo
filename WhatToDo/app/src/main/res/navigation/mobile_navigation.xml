@@ -16,6 +16,11 @@
         android:name="pizza.summersolutions.whattodo.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="pizza.summersolutions.whattodo.ui.ProgressFragment"
+        android:label="fragment_progress"
+        tools:layout="@layout/fragment_progress" />
 
 
 </navigation>

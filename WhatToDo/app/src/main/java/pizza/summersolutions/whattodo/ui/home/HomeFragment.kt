@@ -36,6 +36,6 @@ class HomeFragment : Fragment() {
     }
 
     private fun initViews() {
-        
+
     }
 }
