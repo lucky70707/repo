@@ -6,9 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import kotlinx.android.synthetic.main.fragment_home.*
 import pizza.summersolutions.whattodo.R
+import pizza.summersolutions.whattodo.ui.EditNameDialogFragment
+
 
 class HomeFragment : Fragment() {
 
@@ -36,6 +41,17 @@ class HomeFragment : Fragment() {
     }
 
     private fun initViews() {
+        fab2.setOnClickListener{
 
+
+/*
+            MaterialAlertDialogBuilder(context,R.style.ThemeOverlay_MaterialComponents_MaterialAlertDialog)
+                .setTitle("Title")
+                .setMessage("Message")
+                .setPositiveButton("Ok", null)
+
+                .show()*/
+
+        }
     }
 }

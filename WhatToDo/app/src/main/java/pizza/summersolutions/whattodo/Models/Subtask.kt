@@ -15,7 +15,9 @@ data class Subtask(
     var deadline: Date,
     var difficulty: Int,
     var isCompleted: Boolean,
+    var dateCompleted: Date,
     var categoryId: Int,
     var parentTaskid: Int
+
 
 ) : Parcelable
